@@ -12,8 +12,8 @@ export default function Dashboard() {
     const fetchStats = async () => {
       try {
         const [uploadsRes, recordsRes] = await Promise.all([
-          api.get('/uploads/'),
-          api.get('/records/')
+          api.get('/uploads/?page_size=1000'),
+          api.get('/records/?page_size=1000')
         ]);
         
         const records = recordsRes.data.results || [];
