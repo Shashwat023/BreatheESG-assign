@@ -1,12 +1,12 @@
-# API URL router — populated incrementally as endpoints are built
-# Phase 2 adds ingestion endpoints, Phase 5 completes all 7 API endpoints
-
 from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from apps.api.views import UploadViewSet, NormalizedRecordViewSet, AuditLogViewSet
+
+router = DefaultRouter()
+router.register(r'uploads', UploadViewSet, basename='upload')
+router.register(r'records', NormalizedRecordViewSet, basename='record')
+router.register(r'audit', AuditLogViewSet, basename='audit')
 
 urlpatterns = [
-    # Ingestion endpoints (added in Phase 2 + Phase 5)
-    # path('ingestion/', include('apps.api.ingestion_urls')),
-
-    # Emissions endpoints (added in Phase 5)
-    # path('emissions/', include('apps.api.emissions_urls')),
+    path('', include(router.urls)),
 ]
