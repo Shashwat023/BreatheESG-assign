@@ -1,0 +1,145 @@
+[
+  {
+    "category": "Fuel Combustion - Diesel",
+    "subcategory": "Road Diesel",
+    "scope": "scope_1",
+    "activity_unit": "liter",
+    "factor_value": 2.68738,
+    "factor_source": "DEFRA 2023",
+    "year": 2023,
+    "region": "UK",
+    "gwp_version": "AR5"
+  },
+  {
+    "category": "Fuel Combustion - Petrol",
+    "subcategory": "Unleaded",
+    "scope": "scope_1",
+    "activity_unit": "liter",
+    "factor_value": 2.31395,
+    "factor_source": "DEFRA 2023",
+    "year": 2023,
+    "region": "UK",
+    "gwp_version": "AR5"
+  },
+  {
+    "category": "Fuel Combustion - Natural Gas",
+    "subcategory": "Combustion",
+    "scope": "scope_1",
+    "activity_unit": "m3",
+    "factor_value": 2.04414,
+    "factor_source": "DEFRA 2023",
+    "year": 2023,
+    "region": "UK",
+    "gwp_version": "AR5"
+  },
+  {
+    "category": "Fuel Combustion - LPG",
+    "subcategory": "Combustion",
+    "scope": "scope_1",
+    "activity_unit": "liter",
+    "factor_value": 1.55540,
+    "factor_source": "DEFRA 2023",
+    "year": 2023,
+    "region": "UK",
+    "gwp_version": "AR5"
+  },
+  {
+    "category": "Electricity - UK Grid",
+    "subcategory": "Generation",
+    "scope": "scope_2",
+    "activity_unit": "kWh",
+    "factor_value": 0.21233,
+    "factor_source": "DEFRA 2023",
+    "year": 2023,
+    "region": "UK",
+    "gwp_version": "AR5"
+  },
+  {
+    "category": "Flight - Short Haul (<3000km)",
+    "subcategory": "Economy Class",
+    "scope": "scope_3",
+    "activity_unit": "passenger-km",
+    "factor_value": 0.25484,
+    "factor_source": "DEFRA 2023",
+    "year": 2023,
+    "region": "global",
+    "gwp_version": "AR5"
+  },
+  {
+    "category": "Flight - Short Haul (<3000km)",
+    "subcategory": "Business Class",
+    "scope": "scope_3",
+    "activity_unit": "passenger-km",
+    "factor_value": 0.63710,
+    "factor_source": "DEFRA 2023",
+    "year": 2023,
+    "region": "global",
+    "gwp_version": "AR5"
+  },
+  {
+    "category": "Flight - Long Haul (>3700km)",
+    "subcategory": "Economy Class",
+    "scope": "scope_3",
+    "activity_unit": "passenger-km",
+    "factor_value": 0.19548,
+    "factor_source": "DEFRA 2023",
+    "year": 2023,
+    "region": "global",
+    "gwp_version": "AR5"
+  },
+  {
+    "category": "Flight - Long Haul (>3700km)",
+    "subcategory": "Business Class",
+    "scope": "scope_3",
+    "activity_unit": "passenger-km",
+    "factor_value": 0.57009,
+    "factor_source": "DEFRA 2023",
+    "year": 2023,
+    "region": "global",
+    "gwp_version": "AR5"
+  },
+  {
+    "category": "Hotel Stay",
+    "subcategory": "Average Hotel",
+    "scope": "scope_3",
+    "activity_unit": "night",
+    "factor_value": 34.60,
+    "factor_source": "DEFRA 2023",
+    "year": 2023,
+    "region": "global",
+    "gwp_version": "AR5"
+  },
+  {
+    "category": "Ground Transport - Taxi",
+    "subcategory": "Petrol/Diesel Taxi",
+    "scope": "scope_3",
+    "activity_unit": "km",
+    "factor_value": 0.20369,
+    "factor_source": "DEFRA 2023",
+    "year": 2023,
+    "region": "UK",
+    "gwp_version": "AR5"
+  },
+  {
+    "category": "Ground Transport - Train",
+    "subcategory": "National Rail",
+    "scope": "scope_3",
+    "activity_unit": "km",
+    "factor_value": 0.03549,
+    "factor_source": "DEFRA 2023",
+    "year": 2023,
+    "region": "UK",
+    "gwp_version": "AR5"
+  },
+  {
+    "category": "Ground Transport - Rental Car",
+    "subcategory": "Medium Diesel",
+    "scope": "scope_3",
+    "activity_unit": "km",
+    "factor_value": 0.17100,
+    "factor_source": "DEFRA 2023",
+    "year": 2023,
+    "region": "global",
+    "gwp_version": "AR5"
+  }
+]

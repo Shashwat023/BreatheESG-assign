@@ -1,0 +1,273 @@
+[
+  {
+    "record_id": "TRV-001",
+    "employee_id": "EMP-12345",
+    "trip_date": "2024-01-10",
+    "travel_type": "flight",
+    "origin": "LHR",
+    "destination": "JFK",
+    "cabin_class": "economy",
+    "distance_km": 5540,
+    "passengers": 1,
+    "purpose": "Client Meeting",
+    "cost_gbp": 485.00,
+    "booking_ref": "BA-2024-001"
+  },
+  {
+    "record_id": "TRV-002",
+    "travel_type": "hotel",
+    "trip_date": "2024-01-10",
+    "location": "New York, US",
+    "hotel_name": "Marriott Times Square",
+    "nights": 3,
+    "room_type": "standard",
+    "cost_gbp": 750.00
+  },
+  {
+    "record_id": "TRV-003",
+    "travel_type": "ground_transport",
+    "trip_date": "2024-01-10",
+    "transport_mode": "taxi",
+    "distance_km": 45,
+    "cost_gbp": 85.00
+  },
+  {
+    "record_id": "TRV-004",
+    "employee_id": "EMP-12345",
+    "trip_date": "2024-01-14",
+    "travel_type": "flight",
+    "origin": "JFK",
+    "destination": "LHR",
+    "cabin_class": "economy",
+    "distance_km": 5540,
+    "passengers": 1,
+    "purpose": "Return flight",
+    "cost_gbp": 450.00,
+    "booking_ref": "BA-2024-002"
+  },
+  {
+    "record_id": "TRV-005",
+    "employee_id": "EMP-88211",
+    "trip_date": "2024-01-18",
+    "travel_type": "flight",
+    "origin": "LHR",
+    "destination": "CDG",
+    "cabin_class": "economy",
+    "passengers": 1,
+    "purpose": "Paris Conference",
+    "cost_gbp": 120.00,
+    "booking_ref": "AF-2024-001"
+  },
+  {
+    "record_id": "TRV-006",
+    "travel_type": "hotel",
+    "trip_date": "2024-01-18",
+    "location": "Paris, FR",
+    "hotel_name": "Novotel Paris Centre",
+    "nights": 2,
+    "room_type": "standard",
+    "cost_gbp": 320.00
+  },
+  {
+    "record_id": "TRV-007",
+    "employee_id": "EMP-88211",
+    "trip_date": "2024-01-20",
+    "travel_type": "flight",
+    "origin": "CDG",
+    "destination": "LHR",
+    "cabin_class": "economy",
+    "passengers": 1,
+    "cost_gbp": 115.00,
+    "booking_ref": "AF-2024-002"
+  },
+  {
+    "record_id": "TRV-008",
+    "employee_id": "EMP-90001",
+    "trip_date": "2024-02-05",
+    "travel_type": "flight",
+    "origin": "LHR",
+    "destination": "DXB",
+    "cabin_class": "business",
+    "distance_km": 5470,
+    "passengers": 1,
+    "purpose": "Dubai Summit",
+    "cost_gbp": 2400.00,
+    "booking_ref": "EK-2024-001"
+  },
+  {
+    "record_id": "TRV-009",
+    "travel_type": "hotel",
+    "trip_date": "2024-02-05",
+    "location": "Dubai, UAE",
+    "hotel_name": "Hilton Dubai",
+    "nights": 4,
+    "room_type": "executive",
+    "cost_gbp": 1100.00
+  },
+  {
+    "record_id": "TRV-010",
+    "travel_type": "ground_transport",
+    "trip_date": "2024-02-05",
+    "transport_mode": "taxi",
+    "distance_km": 30,
+    "cost_gbp": 50.00
+  },
+  {
+    "record_id": "TRV-011",
+    "employee_id": "EMP-90001",
+    "trip_date": "2024-02-09",
+    "travel_type": "flight",
+    "origin": "DXB",
+    "destination": "SIN",
+    "cabin_class": "business",
+    "distance_km": 5850,
+    "passengers": 1,
+    "purpose": "Singapore Office Visit",
+    "cost_gbp": 1800.00,
+    "booking_ref": "SQ-2024-001"
+  },
+  {
+    "record_id": "TRV-012",
+    "travel_type": "hotel",
+    "trip_date": "2024-02-09",
+    "location": "Singapore, SG",
+    "hotel_name": "Marina Bay Sands",
+    "nights": 3,
+    "room_type": "standard",
+    "cost_gbp": 1500.00
+  },
+  {
+    "record_id": "TRV-013",
+    "employee_id": "EMP-90001",
+    "trip_date": "2024-02-12",
+    "travel_type": "flight",
+    "origin": "SIN",
+    "destination": "LHR",
+    "cabin_class": "business",
+    "distance_km": 10880,
+    "passengers": 1,
+    "cost_gbp": 3200.00,
+    "booking_ref": "BA-2024-010"
+  },
+  {
+    "record_id": "TRV-014",
+    "travel_type": "ground_transport",
+    "trip_date": "2024-02-15",
+    "transport_mode": "train",
+    "distance_km": 320,
+    "cost_gbp": 140.00,
+    "purpose": "London to Manchester"
+  },
+  {
+    "record_id": "TRV-015",
+    "travel_type": "ground_transport",
+    "trip_date": "2024-02-15",
+    "transport_mode": "rental_car",
+    "distance_km": 150,
+    "cost_gbp": 95.00
+  },
+  {
+    "record_id": "TRV-016",
+    "employee_id": "EMP-33444",
+    "trip_date": "2024-03-01",
+    "travel_type": "flight",
+    "origin": "FRA",
+    "destination": "AMS",
+    "cabin_class": "economy",
+    "distance_km": 365,
+    "passengers": 1,
+    "cost_gbp": 180.00
+  },
+  {
+    "record_id": "TRV-017",
+    "employee_id": "EMP-33444",
+    "trip_date": "2024-03-03",
+    "travel_type": "flight",
+    "origin": "AMS",
+    "destination": "FRA",
+    "cabin_class": "economy",
+    "distance_km": 365,
+    "passengers": 1,
+    "cost_gbp": 175.00
+  },
+  {
+    "record_id": "TRV-018",
+    "employee_id": "EMP-55666",
+    "trip_date": "2024-03-10",
+    "travel_type": "flight",
+    "origin": "ORD",
+    "destination": "SFO",
+    "cabin_class": "economy",
+    "passengers": 1,
+    "cost_gbp": 350.00
+  },
+  {
+    "record_id": "TRV-019",
+    "travel_type": "hotel",
+    "trip_date": "2024-03-10",
+    "location": "San Francisco, US",
+    "hotel_name": "Westin St. Francis",
+    "nights": 5,
+    "room_type": "standard",
+    "cost_gbp": 1250.00
+  },
+  {
+    "record_id": "TRV-020",
+    "travel_type": "ground_transport",
+    "trip_date": "2024-03-10",
+    "transport_mode": "taxi",
+    "distance_km": 25,
+    "cost_gbp": 45.00
+  },
+  {
+    "record_id": "TRV-021",
+    "employee_id": "EMP-55666",
+    "trip_date": "2024-03-15",
+    "travel_type": "flight",
+    "origin": "SFO",
+    "destination": "ORD",
+    "cabin_class": "economy",
+    "passengers": 1,
+    "cost_gbp": 320.00
+  },
+  {
+    "record_id": "TRV-022",
+    "employee_id": "EMP-11111",
+    "trip_date": "2024-03-20",
+    "travel_type": "flight",
+    "origin": "LHR",
+    "destination": "BOS",
+    "cabin_class": "first",
+    "distance_km": 5260,
+    "passengers": 1,
+    "cost_gbp": 4500.00
+  },
+  {
+    "record_id": "TRV-023",
+    "travel_type": "ground_transport",
+    "trip_date": "2024-03-22",
+    "transport_mode": "train",
+    "distance_km": 450,
+    "cost_gbp": 180.00
+  },
+  {
+    "record_id": "TRV-024",
+    "travel_type": "ground_transport",
+    "trip_date": "2024-03-24",
+    "transport_mode": "rental_car",
+    "distance_km": 280,
+    "cost_gbp": 160.00
+  },
+  {
+    "record_id": "TRV-025",
+    "employee_id": "EMP-11111",
+    "trip_date": "2024-03-25",
+    "travel_type": "flight",
+    "origin": "BOS",
+    "destination": "LHR",
+    "cabin_class": "first",
+    "distance_km": 5260,
+    "passengers": 1,
+    "cost_gbp": 4200.00
+  }
+]
