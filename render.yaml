@@ -31,8 +31,9 @@ services:
   # ==========================================
   # React Frontend Dashboard
   # ==========================================
-  - type: static
+  - type: web
     name: breathe-esg-frontend
+    runtime: static
     buildCommand: "cd frontend && npm install && npm run build"
     staticPublishPath: "./frontend/dist"
     envVars:
