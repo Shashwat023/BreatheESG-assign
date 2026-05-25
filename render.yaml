@@ -2,7 +2,7 @@ services:
   # ==========================================
   # PostgreSQL Database
   # ==========================================
-  - type: psql
+  - type: postgres
     name: breathe-esg-db
     plan: free
     region: ohio
