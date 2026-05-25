@@ -35,7 +35,6 @@ services:
     name: breathe-esg-frontend
     env: static
     plan: free
-    region: ohio
     buildCommand: "cd frontend && npm install && npm run build"
     staticPublishPath: "./frontend/dist"
     envVars:
