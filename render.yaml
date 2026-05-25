@@ -13,8 +13,7 @@ services:
     plan: free
     region: ohio
     buildCommand: "./build.sh"
-    preDeployCommand: "python manage.py migrate && python manage.py seed_data"
-    startCommand: "gunicorn breatheESG.wsgi:application"
+    startCommand: "python manage.py migrate && python manage.py seed_data && gunicorn breatheESG.wsgi:application"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
