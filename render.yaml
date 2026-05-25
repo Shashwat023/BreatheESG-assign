@@ -27,13 +27,14 @@ services:
         value: "breathe-esg-backend.onrender.com"
       - key: CORS_ALLOW_ALL_ORIGINS
         value: "True"
+      - key: PYTHON_VERSION
+        value: "3.11.9"
 
   # ==========================================
   # React Frontend Dashboard
   # ==========================================
-  - type: web
+  - type: static
     name: breathe-esg-frontend
-    runtime: static
     buildCommand: "cd frontend && npm install && npm run build"
     staticPublishPath: "./frontend/dist"
     envVars:
