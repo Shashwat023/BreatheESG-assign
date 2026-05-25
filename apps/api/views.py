@@ -23,13 +23,19 @@ class NormalizedRecordViewSet(viewsets.ModelViewSet):
     API for viewing and managing normalized emission records.
     The Section 2 dashboard consumes this.
     """
-    queryset = NormalizedEmissionRecord.objects.select_related('organization', 'raw_record').order_by('-created_at')
     serializer_class = NormalizedEmissionRecordSerializer
     filterset_fields = [
         'status', 'scope', 'source_type', 
         'is_suspicious', 'organization'
     ]
     search_fields = ['category', 'subcategory']
+
+    def get_queryset(self):
+        queryset = NormalizedEmissionRecord.objects.select_related('organization', 'raw_record').order_by('-created_at')
+        org_slug = self.request.query_params.get('org_slug')
+        if org_slug:
+            queryset = queryset.filter(organization__slug=org_slug)
+        return queryset
 
     @action(detail=True, methods=['post'], serializer_class=RecordApprovalSerializer)
     def review(self, request, pk=None):
@@ -60,6 +66,13 @@ class NormalizedRecordViewSet(viewsets.ModelViewSet):
 
 class AuditLogViewSet(viewsets.ReadOnlyModelViewSet):
     """API for viewing the immutable audit trail."""
-    queryset = AuditLog.objects.order_by('-timestamp')
     serializer_class = AuditLogSerializer
-    filterset_fields = ['model_name', 'object_id', 'action']
+    filterset_fields = ['model_name', 'object_id', 'action', 'organization']
+
+    def get_queryset(self):
+        queryset = AuditLog.objects.all().order_by('-timestamp')
+        org_slug = self.request.query_params.get('org_slug')
+        if org_slug:
+            queryset = queryset.filter(organization__slug=org_slug)
+        return queryset
+

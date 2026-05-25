@@ -4,6 +4,7 @@ import Layout from './components/layout/Layout';
 import Dashboard from './pages/Dashboard';
 import Uploads from './pages/Uploads';
 import Records from './pages/Records';
+import AuditLogs from './pages/AuditLogs';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="uploads" element={<Uploads />} />
           <Route path="records" element={<Records />} />
+          <Route path="audit-logs" element={<AuditLogs />} />
         </Route>
       </Routes>
     </BrowserRouter>

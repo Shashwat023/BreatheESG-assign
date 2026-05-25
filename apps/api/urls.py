@@ -5,7 +5,8 @@ from apps.api.views import UploadViewSet, NormalizedRecordViewSet, AuditLogViewS
 router = DefaultRouter()
 router.register(r'uploads', UploadViewSet, basename='upload')
 router.register(r'records', NormalizedRecordViewSet, basename='record')
-router.register(r'audit', AuditLogViewSet, basename='audit')
+router.register(r'audit/logs', AuditLogViewSet, basename='audit')
+
 
 urlpatterns = [
     path('', include(router.urls)),

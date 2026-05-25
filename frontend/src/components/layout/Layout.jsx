@@ -1,12 +1,13 @@
 import React from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
-import { LayoutDashboard, UploadCloud, Database, AlertTriangle } from 'lucide-react';
+import { LayoutDashboard, UploadCloud, Database, History } from 'lucide-react';
 import clsx from 'clsx';
 
 const navigation = [
   { name: 'Dashboard', href: '/dashboard', icon: LayoutDashboard },
   { name: 'Data Uploads', href: '/uploads', icon: UploadCloud },
   { name: 'Normalized Records', href: '/records', icon: Database },
+  { name: 'Audit Logs', href: '/audit-logs', icon: History },
 ];
 
 export default function Layout() {
